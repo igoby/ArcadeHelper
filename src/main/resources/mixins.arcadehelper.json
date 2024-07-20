@@ -6,8 +6,9 @@
   "injectors": {
     "maxShiftBy": 5
   },
-  "client": [
-    "MinecraftMixin"
-  ],
-  "verbose": true
+  "client": [],
+  "verbose": true,
+  "mixins": [
+    "MixinModList"
+  ]
 }
